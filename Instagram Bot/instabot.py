@@ -1,6 +1,6 @@
 from instapy import InstaPy
 
-session = InstaPy(username="mr.iktn", password="highiktn21")
+session = InstaPy(username="{username}", password="{password}")
 session.set_quota_supervisor(enabled=True, peak_comments_daily=200, peak_comments_hourly=22)
 session.set_relationship_bounds(enabled=True, max_followers=8500)
 session.set_use_clarifai(enabled=True, api_key='04d37450fe654234b5fa6581bcef4d80')
